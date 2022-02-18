@@ -21,6 +21,7 @@ the perfect numbers using reduce and filter functions."""
         if sum(divisor)==i:
             perfectnum.append(i)
         divisor.clear()
+    print(sum(perfectnum))
     return perfectnum
         
         
